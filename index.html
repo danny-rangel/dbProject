@@ -8,59 +8,59 @@
     <link rel="stylesheet" type="text/css" href="assets/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
-<body>
-    <div class="wrapper">
+    <body>
+        <div class="wrapper">
 
-        <div class="headerSection">
-            <h1>University Database</h1>
-        </div>
-
-        <div class="mainSection">
-            <div class="professorSection">
-                <h2>Professor</h2>
-                <div class="searchContainer">
-                    <h3>Search Course List</h3>
-                    <form action="displayCourseList.php" method="GET">
-                        <input type="text" class="searchBox" name="ssn" placeholder="SSN">
-                        <input type="submit" class="searchButton" value="Search">
-                    </form>
-                </div>
-    
-                <div class="searchContainer">
-                    <h3>Search Grades</h3>
-                    <form action="displayStudentGrades.php" method="GET">
-                        <input type="text" class="searchBox" name="courseNum" placeholder="Course Number">
-                        <div class="divider"></div>
-                        <input type="text" class="searchBox" name="sectionNum" placeholder="Section Number">
-                        <input type="submit" class="searchButton" value="Search">
-                    </form>
-                </div>
+            <div class="headerSection">
+                <h1>University Database</h1>
             </div>
 
-            
+            <div class="mainSection">
+                <div class="professorSection">
+                    <h2>Professor</h2>
+                    <div class="searchContainer">
+                        <h3>Search Course List</h3>
+                        <form action="displayCourseList.php" method="GET">
+                            <input type="text" class="searchBox" name="ssn" placeholder="SSN" required >
+                            <input type="submit" class="searchButton" value="Search">
+                        </form>
+                    </div>
+        
+                    <div class="searchContainer">
+                        <h3>Search Grades</h3>
+                        <form action="displayStudentGrades.php" method="GET">
+                            <input type="text" class="searchBox" name="courseNum" placeholder="Course Number" required >
+                            <div class="divider"></div>
+                            <input type="text" class="searchBox" name="sectionNum" placeholder="Section Number" required >
+                            <input type="submit" class="searchButton" value="Search">
+                        </form>
+                    </div>
+                </div>
 
-            <div class="studentSection">
-                <h2>Student</h2>
-                <div class="searchContainer">
-                    <h3>Search Course Sections</h3>
-                    <form action="displayCourseSections.php" method="GET">
-                        <input type="text" class="searchBox" name="courseNum" placeholder="Course Number">
-                        <input type="submit" class="searchButton" value="Search">
-                    </form>
+                
+
+                <div class="studentSection">
+                    <h2>Student</h2>
+                    <div class="searchContainer">
+                        <h3>Search Course Sections</h3>
+                        <form action="displayCourseSections.php" method="GET">
+                            <input type="text" class="searchBox" name="courseNum" placeholder="Course Number" required >
+                            <input type="submit" class="searchButton" value="Search">
+                        </form>
+                    </div>
+        
+                    <div class="searchContainer">
+                        <h3>Search Course History</h3>
+                        <form action="displayCourseHistory.php" method="GET">
+                            <input type="text" class="searchBox" name="cwid" placeholder="CWID" required>
+                            <input type="submit" class="searchButton" value="Search">
+                        </form>
+                    </div>
                 </div>
-    
-                <div class="searchContainer">
-                    <h3>Search Course History</h3>
-                    <form action="displayCourseHistory.php" method="GET">
-                        <input type="text" class="searchBox" name="cwid" placeholder="CWID">
-                        <input type="submit" class="searchButton" value="Search">
-                    </form>
-                </div>
+                
+
             </div>
-            
 
         </div>
-
-    </div>
-</body>
+    </body>
 </html>
