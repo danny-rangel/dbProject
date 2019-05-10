@@ -1,8 +1,8 @@
 <?php
     include("config.php");
     include("ResultsProvider.php");
-    if (isset($_GET["ssn"])) {
-        $ssn = $_GET["ssn"];
+    if (isset($_GET["courseNum"])) {
+        $courseNum = $_GET["courseNum"];
     } else {
         exit("You must enter a search term!");
     }
@@ -31,13 +31,13 @@
             <div class="mainDataSection">
                 <div class="dataContainer">
                     <div class="label">
-                        <h3>List of courses for <?php echo $ssn ?></h3>
+                        <h3>List of courses for <?php echo $courseNum ?></h3>
                     </div>
                     <div class="divider"></div>
 
                         <?php
                             $resultsProvider = new ResultsProvider($con);
-                            echo $resultsProvider->getProfessorCoursesHtml($ssn);
+                            echo $resultsProvider->getCourseSectionsHtml($courseNum);
                         ?>
                     
                 </div>
