@@ -1,7 +1,7 @@
 # Project for CS 323
 
 
-Demo: [http://localhost:8080/dbProject/index.html](http://localhost:8080/dbProject/index.html)
+Demo: [http://ecs.fullerton.edu/~cs332t32/](http://ecs.fullerton.edu/~cs332t32/)
 
 
 
