@@ -31,7 +31,7 @@
             <div class="mainDataSection">
                 <div class="dataContainer">
                     <div class="label">
-                        <h3>List of courses for <?php echo $courseNum ?></h3>
+                        <h3>List of course sections for course number: <?php echo $courseNum ?></h3>
                     </div>
                     <div class="divider"></div>
 

@@ -32,7 +32,7 @@
             <div class="mainDataSection">
                 <div class="dataContainer">
                     <div class="label">
-                        <h3>List of courses for </h3>
+                        <h3>List of student grades for course number: <?php echo $courseNum . " and section number: " . $sectionNum ?> </h3>
                     </div>
                     <div class="divider"></div>
 
