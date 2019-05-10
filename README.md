@@ -12,6 +12,8 @@ Test Info ~~~~~~~
 
 Students:
 
+    First       Last        CWID
+
 
     Brendon     Price       111324
     
@@ -40,6 +42,8 @@ Students:
 
 Professors:
 
+    First       Last        SSN
+
 
     Jon         Snow        124577
     
@@ -51,6 +55,8 @@ Professors:
 
 
 Courses:
+
+    Title                           CN      Sections            Taught By
 
 
     Intro To College Writing        101     Sections: 1, 2      Trevor Whittaker
@@ -67,6 +73,8 @@ Courses:
 
 
 Departments:
+
+    Name            DNo     Chairperson
 
 
     Math            2       Jamie Lannister
