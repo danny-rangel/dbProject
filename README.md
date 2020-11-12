@@ -1,11 +1,6 @@
 # Project for CS 323
 
 
-Demo: [http://ecs.fullerton.edu/~cs332t32/](http://ecs.fullerton.edu/~cs332t32/)
-
-
-
-
 Test Info ~~~~~~~
 
 
